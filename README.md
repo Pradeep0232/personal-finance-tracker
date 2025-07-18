@@ -1,12 +1,37 @@
-# React + Vite
+# 💰 Personal Finance Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive web app built with **React.js** that allows users to track their income and expenses, view their current balance, and visualize financial trends using charts. Data is saved using `localStorage` for persistence.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Add income or expense transactions
+- ✅ Delete individual transactions
+- ✅ View total balance, income, and expenses
+- ✅ Visualize spending with a pie chart (Recharts)
+- ✅ Data persists across refresh using `localStorage`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Built With
+
+- React.js (Vite)
+- Recharts (for chart visualization)
+- CSS (custom styles)
+
+---
+
+## 📷 Preview
+
+![App Screenshot](finance-tracker.png) 
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/Pradeep0232/personal-finance-tracker.git
+cd personal-finance-tracker
+npm install
+npm run dev
